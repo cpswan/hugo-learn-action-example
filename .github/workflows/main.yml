@@ -1,0 +1,28 @@
+name: CD
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.74.3"
+
+      - name: Build
+        run: hugo 
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.REPO_TOKEN }}
+          external_repository: cpswan/hugo-learn-action-example
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: cpswan
+          user_email: 478926+cpswan@users.noreply.github.com
+          publish_branch: gh-pages
+        #   cname: example.com

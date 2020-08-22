@@ -1,0 +1,8 @@
+baseURL = "https://cpswan.github.io/hugo-learn-action-example/"
+languageCode = "en-us"
+title = "Example of GitHub actions using Hugo and Learn Theme"
+theme = "hugo-theme-learn"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]

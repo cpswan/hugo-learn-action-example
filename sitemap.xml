@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cpswan.github.io/hugo-learn-action-example/basics/</loc>
+    <lastmod>2020-08-22T12:48:40+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpswan.github.io/hugo-learn-action-example/</loc>
+    <lastmod>2020-08-22T12:49:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpswan.github.io/hugo-learn-action-example/basics/first-content/</loc>
+    <lastmod>2020-08-22T12:49:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpswan.github.io/hugo-learn-action-example/basics/second-content/</loc>
+    <lastmod>2020-08-22T12:49:11+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cpswan.github.io/hugo-learn-action-example/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cpswan.github.io/hugo-learn-action-example/tags/</loc>
+  </url>
+  
+</urlset>
